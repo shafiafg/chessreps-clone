@@ -1,0 +1,203 @@
+{
+  "kings-indian-defense": {
+    "name": "King's Indian Defense (Classical Variation)",
+    "root": "kid-1-d4",
+    "nodes": {
+      "kid-1-d4": {
+        "id": "kid-1-d4",
+        "uci": "d2d4",
+        "san": "d4",
+        "commentary": "White stakes a central claim immediately, seizing space and opening diagonals for the queen and dark-squared bishop.",
+        "children": ["kid-2-nf6"]
+      },
+      "kid-2-nf6": {
+        "id": "kid-2-nf6",
+        "uci": "g8f6",
+        "san": "Nf6",
+        "commentary": "Black develops the knight to its most active square, controlling e4 and preserving maximum flexibility for Black's pawn structure.",
+        "children": ["kid-3-c4"]
+      },
+      "kid-3-c4": {
+        "id": "kid-3-c4",
+        "uci": "c2c4",
+        "san": "c4",
+        "commentary": "White reinforces the d4 pawn and fights for the d5 square, steering the game toward a Queen's Pawn structure.",
+        "children": ["kid-4-g6"]
+      },
+      "kid-4-g6": {
+        "id": "kid-4-g6",
+        "uci": "g7g6",
+        "san": "g6",
+        "commentary": "The hallmark of the King's Indian — Black prepares to fianchetto the bishop on g7, building a powerful long-diagonal battery.",
+        "children": ["kid-5-nc3"]
+      },
+      "kid-5-nc3": {
+        "id": "kid-5-nc3",
+        "uci": "b1c3",
+        "san": "Nc3",
+        "commentary": "White develops the queen's knight, reinforcing the center and preparing to support an e2-e4 advance.",
+        "children": ["kid-6-bg7"]
+      },
+      "kid-6-bg7": {
+        "id": "kid-6-bg7",
+        "uci": "f8g7",
+        "san": "Bg7",
+        "commentary": "The fianchettoed bishop on g7 is the backbone of the King's Indian — it radiates energy toward d4 and beyond.",
+        "children": ["kid-7-e4"]
+      },
+      "kid-7-e4": {
+        "id": "kid-7-e4",
+        "uci": "e2e4",
+        "san": "e4",
+        "commentary": "White erects a broad pawn center with d4+e4+c4, controlling key squares. Black will now seek to undermine it.",
+        "children": ["kid-8-d6"]
+      },
+      "kid-8-d6": {
+        "id": "kid-8-d6",
+        "uci": "d7d6",
+        "san": "d6",
+        "commentary": "Black solidifies the center and prevents e4-e5. This prepares the eventual e7-e5 break which is Black's main counter-plan.",
+        "children": ["kid-9-nf3"]
+      },
+      "kid-9-nf3": {
+        "id": "kid-9-nf3",
+        "uci": "g1f3",
+        "san": "Nf3",
+        "commentary": "White develops the king's knight, reinforcing the center and preparing to castle kingside.",
+        "children": ["kid-10-oo"]
+      },
+      "kid-10-oo": {
+        "id": "kid-10-oo",
+        "uci": "e8g8",
+        "san": "O-O",
+        "commentary": "Black castles kingside, safeguarding the king and activating the rook. This is the critical junction — White now chooses a plan.",
+        "children": ["kid-11a-be2", "kid-11b-d5"]
+      },
+      "kid-11a-be2": {
+        "id": "kid-11a-be2",
+        "uci": "f1e2",
+        "san": "Be2",
+        "commentary": "The Classical Variation — White develops quietly and prepares to castle, aiming for a solid positional struggle. The main line continues with ...e5.",
+        "children": ["kid-12a-e5"]
+      },
+      "kid-12a-e5": {
+        "id": "kid-12a-e5",
+        "uci": "e7e5",
+        "san": "e5",
+        "commentary": "Black strikes back in the center. This is the thematic King's Indian break — now both sides race to attack on their respective wings.",
+        "children": []
+      },
+      "kid-11b-d5": {
+        "id": "kid-11b-d5",
+        "uci": "d4d5",
+        "san": "d5",
+        "commentary": "The Space Attack / Mar del Plata setup — White advances to d5, closing the center and signaling a queenside space advantage. Black must counterattack on the kingside.",
+        "children": ["kid-12b-ne7"]
+      },
+      "kid-12b-ne7": {
+        "id": "kid-12b-ne7",
+        "uci": "b8c6",
+        "san": "Nc6",
+        "commentary": "Black repositions to challenge the d5 pawn and maneuver toward f4 or e5, preparing the classic ...f5-f4 kingside pawn storm.",
+        "children": []
+      }
+    }
+  },
+  "caro-kann-defense": {
+    "name": "Caro-Kann Defense",
+    "root": "ck-1-e4",
+    "nodes": {
+      "ck-1-e4": {
+        "id": "ck-1-e4",
+        "uci": "e2e4",
+        "san": "e4",
+        "commentary": "White seizes the center with the most popular first move. Against the Caro-Kann, White will build a strong pawn center.",
+        "children": ["ck-2-c6"]
+      },
+      "ck-2-c6": {
+        "id": "ck-2-c6",
+        "uci": "c7c6",
+        "san": "c6",
+        "commentary": "The defining move of the Caro-Kann — Black prepares ...d5 while keeping the c8 bishop's diagonal open. A solid, classical approach.",
+        "children": ["ck-3-d4"]
+      },
+      "ck-3-d4": {
+        "id": "ck-3-d4",
+        "uci": "d2d4",
+        "san": "d4",
+        "commentary": "White builds a pawn phalanx in the center. The fight for d5 will be the key strategic battleground.",
+        "children": ["ck-4-d5"]
+      },
+      "ck-4-d5": {
+        "id": "ck-4-d5",
+        "uci": "d7d5",
+        "san": "d5",
+        "commentary": "Black challenges the center immediately, forcing White to define the pawn structure.",
+        "children": ["ck-5-nc3"]
+      },
+      "ck-5-nc3": {
+        "id": "ck-5-nc3",
+        "uci": "b1c3",
+        "san": "Nc3",
+        "commentary": "White defends e4 with the knight, developing naturally. This is the Main Line of the Caro-Kann.",
+        "children": ["ck-6-dxe4"]
+      },
+      "ck-6-dxe4": {
+        "id": "ck-6-dxe4",
+        "uci": "d5e4",
+        "san": "dxe4",
+        "commentary": "Black releases the central tension, entering the main theoretical debate. Now White recaptures and the critical branching point occurs.",
+        "children": ["ck-7-nxe4"]
+      },
+      "ck-7-nxe4": {
+        "id": "ck-7-nxe4",
+        "uci": "c3e4",
+        "san": "Nxe4",
+        "commentary": "White recaptures, centralizing the knight powerfully on e4. This is the branch node — Black can choose the Classical or Modern system.",
+        "children": ["ck-8a-bf5", "ck-8b-nd7"]
+      },
+      "ck-8a-bf5": {
+        "id": "ck-8a-bf5",
+        "uci": "c8f5",
+        "san": "Bf5",
+        "commentary": "The Classical Variation — Black develops the light-squared bishop outside the pawn chain before closing with ...e6. White will play Ng3 to harass it.",
+        "children": ["ck-9a-ng3"]
+      },
+      "ck-9a-ng3": {
+        "id": "ck-9a-ng3",
+        "uci": "e4g3",
+        "san": "Ng3",
+        "commentary": "White retreats the knight to a safe square while attacking the bishop, gaining time.",
+        "children": ["ck-10a-bg6"]
+      },
+      "ck-10a-bg6": {
+        "id": "ck-10a-bg6",
+        "uci": "f5g6",
+        "san": "Bg6",
+        "commentary": "Black retreats the bishop to the g6 square where it remains active on the long diagonal and supports a future ...e5.",
+        "children": []
+      },
+      "ck-8b-nd7": {
+        "id": "ck-8b-nd7",
+        "uci": "b8d7",
+        "san": "Nd7",
+        "commentary": "The Modern Variation — Black develops the knight to d7, planning ...Ngf6 to exchange White's strong centralized knight without giving up the bishop.",
+        "children": ["ck-9b-nf3"]
+      },
+      "ck-9b-nf3": {
+        "id": "ck-9b-nf3",
+        "uci": "g1f3",
+        "san": "Nf3",
+        "commentary": "White develops the king's knight, maintaining the central knight on e4 and preparing to castle.",
+        "children": ["ck-10b-ngf6"]
+      },
+      "ck-10b-ngf6": {
+        "id": "ck-10b-ngf6",
+        "uci": "g8f6",
+        "san": "Ngf6",
+        "commentary": "Black develops the other knight, now challenging White's strong knight on e4 and completing development before castling.",
+        "children": []
+      }
+    }
+  }
+}
