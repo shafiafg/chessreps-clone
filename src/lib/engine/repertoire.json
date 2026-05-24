@@ -1,0 +1,27 @@
+{
+  "King's Indian": {
+    "name": "King's Indian",
+    "eco": "E60",
+    "moves": [
+      { "step": 1, "uci": "d2d4", "san": "d4", "highlightSquares": ["d4"], "explanation": "White opens with the Queen's pawn, grabbing central space." },
+      { "step": 2, "uci": "g8f6", "san": "Nf6", "highlightSquares": ["f6"], "explanation": "Black develops the knight toward the center." },
+      { "step": 3, "uci": "c2c4", "san": "c4", "highlightSquares": ["c4"], "explanation": "White expands on the queenside, often transposing to various Indian defenses." },
+      { "step": 4, "uci": "g7g6", "san": "g6", "highlightSquares": ["g6"], "explanation": "Black prepares a fianchetto; typical King's Indian structure." }
+    ],
+    "description": "A hypermodern defense where Black allows White centre and plans a counterattack.",
+    "difficulty": "intermediate"
+  },
+
+  "Caro-Kann": {
+    "name": "Caro-Kann",
+    "eco": "B10",
+    "moves": [
+      { "step": 1, "uci": "e2e4", "san": "e4", "highlightSquares": ["e4"], "explanation": "King's pawn opening; classical central thrust." },
+      { "step": 2, "uci": "c7c6", "san": "c6", "highlightSquares": ["c6"], "explanation": "The Caro-Kann's signature move, preparing d5 and solid structure." },
+      { "step": 3, "uci": "d2d4", "san": "d4", "highlightSquares": ["d4"], "explanation": "White supports the pawn on e4 and occupies the center." },
+      { "step": 4, "uci": "d7d5", "san": "d5", "highlightSquares": ["d5"], "explanation": "Black challenges the center directly; typical Caro-Kann pawn structure." }
+    ],
+    "description": "A solid, resilient defense; emphasizes structure and counterplay.",
+    "difficulty": "beginner"
+  }
+}
