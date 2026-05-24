@@ -1,4 +1,4 @@
-// File: C:\Users\a1957\Desktop\PROJECT CHESSREPS CLONE\src\app\api\chess\route.js
+// File: /vercel/share/v0-project/src/app/api/chess/route.js
 import * as entry from '../../../../../src/app/api/chess/route.js'
 import type { NextRequest } from 'next/server.js'
 
