@@ -4,16 +4,23 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''"
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"framer-motion": "^11.0.8",
+		"next": "^15.1.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^7.0.1",
-		"@sveltejs/kit": "^2.57.0",
-		"@sveltejs/vite-plugin-svelte": "^7.0.0",
-		"svelte": "^5.55.2",
-		"vite": "^8.0.7"
+		"@tailwindcss/postcss": "^4.3.0",
+		"autoprefixer": "^10.5.0",
+		"eslint": "^9.0.0",
+		"eslint-config-next": "^15.1.0",
+		"postcss": "^8.5.15",
+		"tailwindcss": "^4.3.0"
 	}
 }

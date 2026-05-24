@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "_rsc_src_lib_openings_json";
+exports.ids = ["_rsc_src_lib_openings_json"];
+exports.modules = {
+
+/***/ "(rsc)/./src/lib/openings.json":
+/*!*******************************!*\
+  !*** ./src/lib/openings.json ***!
+  \*******************************/
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"King\'s Indian Defense (Classical Variation)":[{"step":1,"uci":"d2d4","san":"d4","highlightSquares":["d2","d4"],"explanation":"White claims space in the center and opens lines for the Queen and dark-squared Bishop."},{"step":2,"uci":"g8f6","san":"Nf6","highlightSquares":["g8","f6"],"explanation":"Black develops the knight to control the e4 square and keep opening choices flexible."},{"step":3,"uci":"c2c4","san":"c4","highlightSquares":["c2","c4"],"explanation":"White fights for control over the d5 square and prepares to develop the knight to c3."},{"step":4,"uci":"g7g6","san":"g6","highlightSquares":["g7","g6"],"explanation":"Black prepares to fianchetto the king\'s bishop to g7 to influence the long diagonal."},{"step":5,"uci":"b1c3","san":"Nc3","highlightSquares":["b1","c3"],"explanation":"White develops the knight to support the e4 push and apply pressure to d5."},{"step":6,"uci":"f8g7","san":"Bg7","highlightSquares":["f8","g7"],"explanation":"Black develops the bishop to the long diagonal, preparing for kingside castling."},{"step":7,"uci":"e2e4","san":"e4","highlightSquares":["e2","e4"],"explanation":"White establishes a broad pawn center, controlling d5 and f5."},{"step":8,"uci":"d7d6","san":"d6","highlightSquares":["d7","d6"],"explanation":"Black prevents White from advancing e4-e5 and prepares for an eventual e7-e5 strike."},{"step":9,"uci":"g1f3","san":"Nf3","highlightSquares":["g1","f3"],"explanation":"White develops the knight, reinforcing the center and preparing to castle."},{"step":10,"uci":"e8g8","san":"O-O","highlightSquares":["e8","g8"],"explanation":"Black castles, placing the king in safety and activating the rook."},{"step":11,"uci":"f1e2","san":"Be2","highlightSquares":["f1","e2"],"explanation":"White enters the Classical Variation, preparing to castle kingside."},{"step":12,"uci":"e7e5","san":"e5","highlightSquares":["e7","e5"],"explanation":"Black strikes at the center, contesting White\'s spatial advantage."}],"Caro-Kann Defense":[{"step":1,"uci":"e2e4","san":"e4","highlightSquares":["e2","e4"],"explanation":"White stakes a claim in the center and prepares to develop the light-squared bishop."},{"step":2,"uci":"c7c6","san":"c6","highlightSquares":["c7","c6"],"explanation":"Black prepares to challenge White\'s e4 pawn with d7-d5 on the next move."},{"step":3,"uci":"d2d4","san":"d4","highlightSquares":["d2","d4"],"explanation":"White builds a strong pawn center and controls the c5 and e5 squares."},{"step":4,"uci":"d7d5","san":"d5","highlightSquares":["d7","d5"],"explanation":"Black strikes at the e4 pawn immediately, establishing a solid pawn wedge."},{"step":5,"uci":"b1c3","san":"Nc3","highlightSquares":["b1","c3"],"explanation":"White develops a knight to defend e4 and control the center."},{"step":6,"uci":"d5e4","san":"dxe4","highlightSquares":["d5","e4"],"explanation":"Black exchanges pawns, opening lines and preparing to develop the light-squared bishop."},{"step":7,"uci":"c3e4","san":"Nxe4","highlightSquares":["c3","e4"],"explanation":"White recaptures, centralizing the knight on e4."},{"step":8,"uci":"c8f5","san":"Bf5","highlightSquares":["c8","f5"],"explanation":"Black develops the bishop with tempo, attacking the centralized knight."},{"step":9,"uci":"e4g3","san":"Ng3","highlightSquares":["e4","g3"],"explanation":"White retreats the knight to safety while harassing the active bishop."},{"step":10,"uci":"f5g6","san":"Bg6","highlightSquares":["f5","g6"],"explanation":"Black retreats the bishop, preserving it on an active diagonal."}]}');
+
+/***/ })
+
+};
+;
