@@ -5,3 +5,6 @@
 # v2
 ## added a very very basic frontend just for testing a big problem is the backend and how openings are stored so it will be changed to somehting else
 ## front end does not even work and is not even close to the look of chessreps
+# v3 
+## it is not turned into a website using a little bit different opening.json for easier management and addition of better gui 
+### The link https://opening-trainer-puce.vercel.app/
